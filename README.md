@@ -36,6 +36,14 @@ Every Game Object comes with a `Transform` component if in World Space or a `Rec
  - Hide public variables when only meant to be accessed by other classes:
 	 - `[HideInInspector] public int myVariable`
 
+## Methods & Functions
+ - When delegating methods to Event Triggers, do not use Trigger naming conventions, i.e.: `OnButtonWasClicked()`. Instead, use a name that describes the procedure as with other methods
+
+## Documentation
+ - Code should be as self-explanatory as possible. Thus, use comments to explain **why** something is the way it is instead of **how** it works.
+ - Repeated use of triple slash `/// comment` is prefferable to opening and closing commenting brackets `/* comment */`
+ - Comment Methods with the `<Summary>` XML tag
+
 ## Delegates and Execution Order
 
  - Maintain naming convention consistency throughout scripts when referring to recurring managers and components.
