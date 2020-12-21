@@ -56,14 +56,14 @@ over
 
 Dispense with braces entirely when nesting single-line loops, i.e.:
 
-		for each (int number in series)
-		    DoSomething();
+    for each (int number in series)
+        DoSomething();
 over 
 
-		for each (int number in series)
-		{
-		    DoSomething();
-		}
+    for each (int number in series)
+    {
+        DoSomething();
+    }
 
 Use braces for most method bodies. When returning a value defined in a single line, use arrow notation instead, i.e.:
 
@@ -76,8 +76,8 @@ Use braces for most method bodies. When returning a value defined in a single li
 
 		public enum Metals
 		{
-			Copper,
-		   Iron,
-		   Gold,
-		   Platinum
+		    Copper,
+		    Iron,
+		    Gold,
+		    Platinum
 		}
